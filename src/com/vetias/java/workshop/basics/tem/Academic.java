@@ -16,10 +16,16 @@ package tem;
     public boolean isIsnumberofroom() {
         return isnumberofroom;
     }
+    public void setBulding(extenions bulding) {
+        Bulding = bulding;
+    }
+    public extenions getBulding() {
+        return Bulding;
+    }
 
 
 }
-    
-  b
+
+
     
 
