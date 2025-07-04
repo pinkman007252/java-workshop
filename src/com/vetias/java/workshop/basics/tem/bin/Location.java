@@ -48,4 +48,26 @@ public class Location {
      }
 
 }  
+ @Override
+    public String toString() {
+        return "Location{" +
+                "Name='" + Name + '\'' +
+                ", Longtitude=" + Longtitude +
+                ", Altitude='" + Altitude + '\'' +
+                ", City='" + City + '\'' +
+                ", Adress='" + Adress + '\'' +
+                ", Postalcode='" + Postalcode + '\'' +
+                '}';
 
+
+
+
+
+
+
+
+
+
+
+                
+    }

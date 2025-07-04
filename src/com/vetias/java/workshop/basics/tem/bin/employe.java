@@ -8,7 +8,7 @@ public class employe {
     employes[1][0] = "shahul";
     employes[1][1] = "200000";
     employes[2][0] = "zameer";
-    employes[2][1] = "10000000000";
+    employes[2][1] = "1000000";
     employes[3][0] = "subsah";
     employes[3][1] = "100000";
     employes[4][0] = "logesh";
