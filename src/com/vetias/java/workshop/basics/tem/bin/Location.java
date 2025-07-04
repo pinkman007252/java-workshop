@@ -44,7 +44,7 @@ public class Location {
         public String getPostalcode() {
             return Postalcode;
         }
-
+    
      }
 
 }  

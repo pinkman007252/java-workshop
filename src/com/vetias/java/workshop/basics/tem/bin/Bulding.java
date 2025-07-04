@@ -1,43 +1,40 @@
 package tem.bin;
 
 public class Bulding {
-    public static void main(String[] args) {
+
         private String Name;
         private double Area;
         private double Floor;
         private double Localdatetime;
         private double Opendatetime;
+    public void setName(String name) {
+        Name = name;
     }
-    
-    public String setname(String Name) {
-        Name = Name;
-    }
-    public String getname(){
+    public String getName() {
         return Name;
     }
-    public String setarea(String area ){
-    this.area = area
+    public void setArea(double area) {
+        Area = area;
     }
-    public String getarea(){
+    public double getArea() {
         return Area;
     }
-    public String setfloor(String floor){
-        floor = floor;
+    public void setFloor(double floor) {
+        Floor = floor;
     }
-    public String getfloor(){
-        return floor;
+    public double getFloor() {
+        return Floor;
     }
-    public String setLocaldatetime(String Localdatetime){
-        Localdatetime = Localdatetime;
+    public void setLocaldatetime(double localdatetime) {
+        Localdatetime = localdatetime;
     }
-    public String getlocaldatetime(){
+    public double getLocaldatetime() {
         return Localdatetime;
     }
-    public String setopendatetime(String opendatetime){
-        opendatetime = opendatetime;
+    public void setOpendatetime(double opendatetime) {
+        Opendatetime = opendatetime;
     }
-    public String getopendatetime(){
+    public double getOpendatetime() {
         return Opendatetime;
     }
-    }
-
+}   
