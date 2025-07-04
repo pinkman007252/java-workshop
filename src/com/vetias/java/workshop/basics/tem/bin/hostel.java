@@ -1,38 +1,40 @@
 package tem.bin;
 
-public class hostel extenions Bulding {
-    private boolean ismess availabe
-    private int number of room;
+public class Hostel extends Building {
+    private boolean isMessAvailable;
+    private int numberOfRooms;
+    private Building building;
+    private Room room;
 
-    public void setBulding(extenions bulding) {
-        Bulding = bulding;
+    public void setBuilding(Building building) {
+        this.building = building;
     }
 
-    public void setIsmess(boolean ismess) {
-        this.ismess = ismess;
+    public void setIsMessAvailable(boolean isMessAvailable) {
+        this.isMessAvailable = isMessAvailable;
     }
 
-    public void setNumber(int number) {
-        this.number = number;
+    public void setNumberOfRooms(int numberOfRooms) {
+        this.numberOfRooms = numberOfRooms;
     }
 
-    public void setRoom(of room) {
+    public void setRoom(Room room) {
         this.room = room;
     }
 
-    public extenions getBulding() {
-        return Bulding;
+    public Building getBuilding() {
+        return building;
     }
 
-    public boolean isIsmess() {
-        return ismess;
+    public boolean isMessAvailable() {
+        return isMessAvailable;
     }
 
-    public int getNumber() {
-        return number;
+    public int getNumberOfRooms() {
+        return numberOfRooms;
     }
 
-    public of getRoom() {
+    public Room getRoom() {
         return room;
     }
 
