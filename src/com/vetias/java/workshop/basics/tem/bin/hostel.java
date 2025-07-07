@@ -1,5 +1,7 @@
 package tem.bin;
 
+import tem.bin.Building;
+
 public class Hostel extends Building {
     private boolean isMessAvailable;
     private int numberOfRooms;
