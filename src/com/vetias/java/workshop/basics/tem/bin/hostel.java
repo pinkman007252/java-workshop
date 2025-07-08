@@ -2,7 +2,7 @@ package tem.bin;
 
 import tem.bin.Building;
 
-public class Hostel extends Building {
+public class hostel extends Building {
     private boolean isMessAvailable;
     private int numberOfRooms;
     private Building building;
