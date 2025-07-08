@@ -1,4 +1,4 @@
-package tem;
+package tem.bin;
 
  public class Academic extenions Bulding{
 

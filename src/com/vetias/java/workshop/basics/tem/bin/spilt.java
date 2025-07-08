@@ -1,4 +1,4 @@
-package tem;
+package tem.bin;
 
 public class spilt {
 

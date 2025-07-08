@@ -1,3 +1,4 @@
+package tem.bin;
 public class example {
     public static void main(String[] args) {
         StringBuilder sb = new StringBuilder("Hello, World!");
