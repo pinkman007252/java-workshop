@@ -1,4 +1,4 @@
-package com.vetias.java.workshop;
+package tem.bin;
 
 import java.io.File;
 

@@ -1,15 +1,14 @@
 package tem.bin;
 
-import tem.bin.Building;
-
-public class hostel extends Building {
+public class Hostel extends Building {
     private boolean isMessAvailable;
     private int numberOfRooms;
-    private Building building;
+    private Building building; 
     private Room room;
 
-    public void setBuilding(Building building) {
-        this.building = building;
+   
+    public void setRoom(Room room) {
+        this.room = room;
     }
 
     public void setIsMessAvailable(boolean isMessAvailable) {
@@ -24,6 +23,7 @@ public class hostel extends Building {
         this.room = room;
     }
 
+    // Getter methods
     public Building getBuilding() {
         return building;
     }
@@ -39,5 +39,4 @@ public class hostel extends Building {
     public Room getRoom() {
         return room;
     }
-
 }
