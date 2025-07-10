@@ -16,6 +16,8 @@ public class StudentMap {
         students.put(1011, "david black");
 
         System.out.println(students);
+        System.out.println(students.keySet());
+        System.out.println(students.values());
 
         }
     }
