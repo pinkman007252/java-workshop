@@ -1,14 +1,1 @@
-tem\bin\FileHandling.class
-tem\bin\namegenerator.class
-tem\bin\zone.class
-Standard\CharacterBasedReader.class
-tem\bin\calculator.class
-tem\bin\example.class
-tem\bin\employe.class
-tem\bin\upper.class
-tem\bin\Location.class
-tem\bin\sensor.class
-tem\bin\spilt.class
-tem\bin\Registration.class
-tem\bin\floor.class
-tem\bin\Bulding.class
+com\vetias\java\workshop\basics\Standard\CharacterBasedReader.class
